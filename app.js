@@ -1,8 +1,8 @@
-const bodyParser = require("body-parser"),
+const express = require("express"),
+  bodyParser = require("body-parser"),
   expressSanitizer = require("express-sanitizer"),
   methodOverride = require("method-override"),
   mongoose = require("mongoose"),
-  express = require("express"),
   app = express();
 
 // APP CONFIG
